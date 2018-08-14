@@ -60,7 +60,7 @@ function removeFromCart(item) {
   // write your code here
   var itemFound = false
   
-  for(var i = 0; i < cart.length; i++) {
+  for(let i = 0; i < cart.length; i++) {
     if(cart[i]['itemName'] === item) {
       itemFound = true
       cart.splice(i, 1)
